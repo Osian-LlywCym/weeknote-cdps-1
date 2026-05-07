@@ -46,7 +46,7 @@ t:
     title: Weeknotes test
     description: "Our team weeknotes"
     language: English
-    root: /en
+    root: /weeknote-cdps-1/en
     welcome: Welcome to
     team: team
     by: by
@@ -55,7 +55,7 @@ t:
     title: Prawf nodiadau wythnosol
     description: "Nodiadau wythnosol y tim"
     language: Cymraeg
-    root: /cy
+    root: /weeknote-cdps-1/cy
     welcome: Croeso i
     team: tîm
     by: gan
