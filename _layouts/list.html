@@ -8,14 +8,14 @@ layout: default
     {{ content }}
   </div>
 
-  <ul>
+ 
     {% assign subpages=site.categories[page.section] | where:"lang", page.lang %}
     {% for p in subpages %}
- <li><a href="{{site.baseurl}}{{ p.url }}">{{ p.title }}</a></li>
-    <p style="margin-bottom: 0px;">{{ site.t[page.lang].by | capitalize }} {{p.author}}</p>
-    <li style="margin-bottom: 10px;">{{p.description}}
+<p><a href="{{site.baseurl}}{{ p.url }}">{{ p.title }}</a></p>
+   <br>{{ site.t[page.lang].by | capitalize }} {{p.author}}
+   <br> {{p.description}}</p>
     {% endfor %}
-  </ul>
+
 
 </main>
 
